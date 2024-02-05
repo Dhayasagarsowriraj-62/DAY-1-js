@@ -1,0 +1,52 @@
+//write a blog about objct and array and its internal representaion in java script//
+
+OBJECT:
+ 
+ //key value pair to store  data.
+ //object-{}
+ //data accessed by key name.
+   
+   eg..
+   let obj={name:raja,height:5.5};
+    
+    // if accessed height
+    to do..
+    obj.('height')
+
+ ARRAYS:
+
+ //sequential storage.
+ // data can be accessed based on index.
+ //arrays-[]
+ // index start to 0,1,2,3,..
+
+ eg..
+ console.log ([1,2,3,4,5])
+
+
+
+ 2)Write a blog on Difference between HTTP1.1 vs HTTP2?
+
+
+
+HTTP 1.1:
+   // HTTP was created in 1997.
+   // TCP connection required for each request and response.
+   // its works on the textual format.
+   // It does not allows the next request to be sent until the previous response complete.
+   // It takes more time to complete the all the request to render the content in browser.
+   // It sends the request in text format.
+   // It does not send the multiple requests at a time.
+   //it compresses data by itself
+
+HTTP 2:
+   // HTTP2 was created in 2015.
+   //it uses PUSH frame by server that collects all multiple pages.
+   //it is work on the binary protocol.
+   // It reduces the execution time.
+   // All the requests and responses are in binary format.
+   // It encodes the request and response into smaller units.
+   // It supports multiplexing.
+   // Better Performance compared to HTTP1.
+   // It allows multiple request and response at a time in parallel using single TCP connection.
+    
